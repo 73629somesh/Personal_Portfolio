@@ -101,3 +101,48 @@
     text-align: justify;
   }
 }
+
+/* Additional CSS for Responsiveness */
+
+@media (max-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+
+  .timeline-item {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .timeline-item .timeline-content {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .timeline-item .date {
+    width: 100%;
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FAB005;
+  }
+
+  .timeline-item .marker {
+    left: 50%;
+    top: 0;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-item .timeline-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .timeline-item .date {
+    font-size: 14px;
+  }
+}
