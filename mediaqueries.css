@@ -126,7 +126,8 @@
     position: static;
     text-align: center;
     margin-bottom: 10px;
-    color: #FAB005;
+    color: #000000;
+    font-weight: bold;
   }
 
   .timeline-item .marker {
