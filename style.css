@@ -436,7 +436,8 @@ footer p {
   top: 27px;
   left: -30px;
   text-align: right;
-  color: #FAB005;
+  color: #000000;
+  font-weight: bold;
 }
 
 .timeline-item .marker {
